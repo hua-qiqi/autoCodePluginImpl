@@ -1,0 +1,43 @@
+spring:
+  datasource:
+    name: test
+    url: jdbc:mysql://192.168.100.28:3306/lyhtest?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8&useSSL=false&allowMultiQueries=true&useAffectedRows=true
+    username: root
+    password: Iread515
+######使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    filters: stat
+    pool-prepared-statements: true
+    max-open-prepared-statements: 20 
+    initial-size: 10	######初始化连接
+    ######最大空闲连接
+    max-idle: 20
+    ######最小空闲连接
+    min-idle: 5
+    ######最大连接数量
+    max-active: 50
+    ######是否在自动回收超时连接的时候打印连接的超时错误
+    log-abandoned: true
+    ######是否自动回收超时连接
+    remove-abandoned: true
+    ######超时时间(以秒数为单位)
+    remove-abandoned-timeout: 180
+    ######超时等待时间以毫秒为单位 6000毫秒/1000等于60秒 
+    max-wait: 60000
+    test-while-idle: true
+    ######检测数据库的查询语句
+    validation-query: select 1 from dual
+    test-on-borrow: true
+    ######每隔五分钟检测空闲超过10分钟的连接
+    min-evictable-idle-time-millis: 300000
+    time-between-eviction-runs-millis: 60000
+server:
+  port: 8080
+swagger2:
+   enable: true  
+pagehelper:
+  helperDialect: mysql
+  params: count=countSql
+  reasonable: false
+  supportMethodsArguments: true 

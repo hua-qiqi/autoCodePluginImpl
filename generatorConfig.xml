@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+	<classPathEntry location="D:/mvnrepository/mysql/mysql-connector-java/8.0.13/mysql-connector-java-8.0.13.jar" />
+	<context id="context1">
+		<!-- <plugin type="org.mybatis.generator.plugins.ToStringPlugin" /> -->
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+		<plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+
+		<jdbcConnection connectionURL="jdbc:mysql://192.168.100.28:3306/lyhtest?serverTimezone=GMT%2B8" driverClass="com.mysql.cj.jdbc.Driver" password="Iread515" userId="root" >
+			<property name="useInformationSchema" value="true"/>
+		</jdbcConnection>
+		<javaModelGenerator targetPackage="com.zte.model" targetProject="autoCode/src/main/java">
+			<property name="enableSubPackages" value="true" />
+			<property name="trimStrings" value="true" />
+			
+		</javaModelGenerator>
+		<sqlMapGenerator targetPackage="mapper" targetProject="autoCode/src/main/resources">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		<javaClientGenerator targetPackage="com.zte.mapper" targetProject="autoCode/src/main/java" type="XMLMAPPER">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+
+		<!-- <table tableName="PAY_PKGSUBS_RECD00" />
+		<table tableName="PAY_PKGSUBS_RECD01" />
+		<table tableName="PAY_PKGSUBS_RECD02" />
+		<table tableName="PAY_PKGSUBS_RECD03" />
+		<table tableName="PAY_PKGSUBS_RECD04" />
+		<table tableName="PAY_PKGSUBS_RECD05" />
+		<table tableName="PAY_PKGSUBS_RECD06" />
+		<table tableName="PAY_PKGSUBS_RECD07" />
+		<table tableName="PAY_PKGSUBS_RECD08" />
+		<table tableName="PAY_PKGSUBS_RECD09" />
+		<table tableName="s83ablty_service_mjf" />
+		<table tableName="S83ABLTY_SERVICE" /> -->
+		
+		<table tableName="t_sys_parameter" />
+	</context>
+</generatorConfiguration>
