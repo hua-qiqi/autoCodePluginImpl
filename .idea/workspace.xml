@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef5789da-27b6-402d-8b6b-a21d9535b4f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/FileParams.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/META-INF/maven/com.lyh/autoCode/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/META-INF/maven/com.lyh/autoCode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/mapper/TOperHisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/classes/mapper/TSysParameterMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/FileParams.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.lyh/autoCode/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/maven/com.lyh/autoCode/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/Application.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/config/MyBatisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/config/Swagger2Config.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/util/AutoCreateBeanUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/util/AutoCreateRestUtil$MyClassLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/util/AutoCreateRestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/util/JsonResult.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/util/PropertiesUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/common/util/ReadCVSUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/zte/param/PageInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TOperHisMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mapper/TSysParameterMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/config/MyBatisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/util/AutoCreateBeanUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/util/AutoCreateRestUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/util/JsonResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/util/PropertiesUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/common/util/ReadCVSUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/mapper/TOperHisMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/mapper/TSysParameterMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/model/TOperHis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/model/TOperHisExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/model/TSysParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/model/TSysParameterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/param/PageInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/rest/TOperHisRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/src/main/java/com/zte/rest/TSysParameterRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/target/classes/template/controller.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zte/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/mapper/TOperHisMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/mapper/TSysParameterMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/model/TOperHis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/model/TOperHisExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/model/TSysParameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/model/TSysParameterExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/rest/TOperHisRest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zte/rest/TSysParameterRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/template/controller.tpl" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/tools/workTools/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\svn\microservice\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="3" />
+    <option name="width" value="1036" />
+    <option name="height" value="733" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zte" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autoCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autoCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\bootspaceq\autoCode\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="autoCode" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zte.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\hua\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef5789da-27b6-402d-8b6b-a21d9535b4f6" name="Default Changelist" comment="" />
+      <created>1569291799606</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569291799606</updated>
+      <workItem from="1569291801537" duration="2279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2279000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" />
+      <window_info anchor="bottom" id="SonarLint" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32962137" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

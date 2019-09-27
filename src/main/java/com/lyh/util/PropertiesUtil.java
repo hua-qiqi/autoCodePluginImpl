@@ -1,4 +1,4 @@
-package com.zte.common.util;
+package com.lyh.util;
 
 import java.io.IOException;
 
