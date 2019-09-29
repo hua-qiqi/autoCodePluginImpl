@@ -17,10 +17,7 @@ import javax.tools.JavaCompiler;
 import javax.tools.JavaFileObject;
 import javax.tools.StandardJavaFileManager;
 import javax.tools.ToolProvider;
-
 import com.zte.lyh.PluginParamsConfig;
-
-import io.swagger.annotations.ApiParam;
 
 public class AutoCreateBeanUtil {
 
